@@ -1,0 +1,337 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "contact.css" >
+    <link rel="stylesheet" type="text/css" href="style.css" media="all" />
+    <script src = " INDEX.JS"> </script>
+    <script src="https://kit.fontawesome.com/ca93055bb3.js" crossorigin="anonymous"></script>
+    <title>Sign Up to Elysium</title>  
+</head>  
+<body>
+    <ul>
+      <li> <a  href ="C:\Users\obabi\Desktop\EVENT BROOKER\SignUp.html"> Sign Up </a></li>
+        <li> <a href = "C:\Users\obabi\Desktop\EVENT BROOKER\LogIn.html">Log In     </a> </li>
+        
+        <div class="Logo"> 
+          <label>Eventbox </label>
+        </div>  
+      </ul>
+        
+    
+<div class="topnav" id="myTopnav">
+    <a href = "C:\Users\obabi\Desktop\EVENT BROOKER\Support.html"> Support</a>
+    <a href ="#contact" class="active">Contact</a>
+    <a href = "C:\Users\obabi\Desktop\EVENT BROOKER\event-detail.html"> Details </a>
+    <a href = "C:\Users\obabi\Desktop\EVENT BROOKER\events.html"> Events </a>
+    <a href ="C:\Users\obabi\Desktop\EVENT BROOKER\index.html">Home</a>
+      <!--this contains the icons that would be displayed in the top left section of the topnav-->
+    <i class="fa-solid fa-sun" style="font-size:30px; padding: 10px;">  </i>
+    <i class="fa-solid fa-moon"  style="font-size:30px;padding: 10px;"></i>
+    <i class="fa-solid fa-plus"  style="font-size:30px;padding: 10px;"></i>
+    <i class="fa-solid fa-minus"  style="font-size:30px;padding: 10px;"></i>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  
+<!-- The paragraphs contain text talking about how we can help
+how to make  complaints and refunds and faqs . the texts in a link 
+would be there. We dont wanna make this too complex
+, let contact page simpley take contacts of user.-->
+
+<h2>We are here to assist you</h2>
+<p> Welcome to our Eventbox  support hub.
+If you have any questions or require assistance, we're just a click away.
+Start by checking our detailed FAQs for quick answers to common queries
+about our events, booking process, and policies.   </p>
+<p>If you can't find what you're looking for,
+feel free to contact us via email at support@eventbox.com.
+For urgent matters or immediate assistance,
+give us a call at 011576298234 during our business hours,
+Monday to Friday, from 9 am to 5 pm. </p>
+<p> We strive to respond to all inquiries promptly.
+Thank you for choosing us for your event experience,
+and we look forward to ensuring your event goes off without a hitch!</p>
+
+  <h2> Contact </h2>
+  
+<p>Fields marked with * are mandatory</p>
+<p>Title*</p>
+<div class = "bars">  
+<label for ="title">Mr</label>
+<input type = "radio" id ="title" name="title">
+<label for ="title">Ms/Mrs</label>
+<input type = "radio" id ="title" name="title">
+<label for ="title">Dr</label>
+<input type = "radio" id ="title" name="title">
+<label for ="title">Engr</label>
+<input type = "radio" id ="title" name="title">
+<label for ="title">Other</label>
+<input type = "radio" id ="title" name="title">
+<br><br>
+<!--Now we design the input fields, I will deisgn the 
+input text-type like tables.The labels have class L1 
+and inputs have class L2 -->
+<!--contact form section-->
+<div class = "BOX">  
+  <!--Form for user contact-->
+  <form  id = "contact-Form" action ="#" method="post" onsubmit="return IFempty()">
+    
+  <div class = "Package">
+<div class = " L1"> 
+<label for ="fname">First Name*</label> <br>
+</div>
+
+<div class ="L2">
+<input type = "text" id ="fname" name="fname" placeholder="First Name" >
+<br> 
+</div>
+
+</div>
+
+  <!-- Package 2: Last Name -->
+<div class = "Package">
+<div class = "L1"> 
+<label for ="lname"> Last Name*</label> <br> 
+</div>
+<div class ="L2">
+<input type = "text" id ="lname" name="lname" placeholder="Last Name" >
+<br> 
+</div>
+
+</div>
+
+   <!-- Package 3: Address -->
+<div class = "Package">
+<div class ="L1"> 
+<label for ="addy"> Address*</label><br>
+</div>
+<div class ="L2">
+<input type = "text" id ="addy" name="addy" placeholder="Address" >
+<br> 
+</div>
+
+</div>
+
+    <!-- Package 4: Postcode -->
+<div class = "Package">
+<div class ="L1"> 
+<label for ="pcode"> Postcode*</label> <br> 
+</div>
+
+<div class ="L2">
+<input type = "text" id ="pcode" name="pcode" placeholder="Postcode" >
+<br> 
+</div>
+</div>
+ 
+   <!-- Package 5: City -->
+<div class = "Package"> </div>
+<div class ="L1"> 
+<label for ="city"> City</label> <br>
+</div>
+
+<div class ="L2">
+<input type = "text" id ="city" name="city" placeholder="City">
+<br>
+</div>
+</div>
+
+
+    <!-- Package 6: Country -->
+<div class = "Package"> </div>
+<div class ="L1"> 
+<label for ="region"> Country*</label> <br>
+</div>
+
+<div class ="L2">
+<input type = "text" id ="region" name="region" placeholder="Type in your Country" >
+<br> 
+</div>
+</div>
+
+   <!-- Package 7: Email -->
+<div class = "Package"> </div>
+<div class ="L1">
+<label for ="mail"> Email*</label> <br>
+</div>
+
+<div class = "L2">
+<input type = "text" id ="mail" name="mail" placeholder="Email" >
+<br>
+</div>
+
+</div>
+
+<div class = "Package"> </div>
+<div class ="L1"> 
+<label for ="num"> Telephone Number*</label> <br>
+</div>
+
+<div class ="L2">
+<input type = "text" id ="num" name="num" placeholder="Mobile Number" >
+<br>
+</div>
+
+</div>
+
+<div class = "Package"> </div>
+<br> <br>
+<div class ="L1">
+<label for ="mess"> Message*</label> <br>
+</div>
+
+</div>
+<br> <br> 
+<div class="L2">
+  <textarea id ="mess" name = "mess" placeholder="Leave a message" ></textarea>
+<br>
+</div>
+
+
+<div class ="center-container"> 
+  <br> <br> <input type="submit" class ="button" value = "Submit">
+  
+  </div>
+  
+
+</form>
+</div>
+
+<!-- Separator line -->
+<br>
+<hr class="solid">
+
+<div class ="icon-box">
+
+  <div class = "shapes"> 
+<i class="fa-solid fa-user-clock" style="font-size:60px;"> </i>
+<p>24hrs Customer Service</p>
+</div>
+
+<div class = "shapes"> 
+<i class="fa-solid fa-lock" style="font-size:60px;"></i>
+<p>Secure Bookings</p>
+</div>
+
+<div class = "shapes"> 
+<i class="fa-solid fa-people-group" style="font-size:60px;"></i>
+<p>Group Discounts</p>
+</div>
+
+<div class = "shapes"> 
+<i class="fa-solid fa-trophy" style="font-size:60px;"></i>
+<p>Loyalty Bonus</p>
+</div>
+
+</div>
+
+<div class = "Footer"> 
+
+  <div class="column">
+    <h4>Elysium</h4>
+    <p><a href="C:\Users\obabi\Desktop\EVENT BROOKER\welcome.html"> Welcome </a> </p>
+    <p><a href="C:\Users\obabi\Desktop\EVENT BROOKER\index.html">Home </a></p>
+    <p><a href="C:\Users\obabi\Desktop\EVENT BROOKER\index.html#prize">Prices</a></p>
+    <p><a href="C:\Users\obabi\Desktop\EVENT BROOKER\event-detail.html">Details </a>  </p>
+    </div>
+    
+    <div class="column">
+      <h4>Events</h4>
+      <p><a href="C:\Users\obabi\Desktop\EVENT BROOKER\events.html">Find</a></p>
+      <p><a href="C:\Users\obabi\Desktop\EVENT BROOKER\event-detail.html#Nottingham-1">Nottingham</a></p>
+      <p><a href="C:\Users\obabi\Desktop\EVENT BROOKER\event-detail.html#Derby-1">Derby</a></p>
+      <p><a href="C:\Users\obabi\Desktop\EVENT BROOKER\event-detail.html#Sheffield-1">Sheffield</a></p>
+      </div>
+      
+      
+      <div class="column">
+      <h4>Support</h4>
+      <p><a href="C:\Users\obabi\Desktop\EVENT BROOKER\contact.html">Contact</a></p>
+      <p><a href="C:\Users\obabi\Desktop\EVENT BROOKER\Support.html#FAQ">FAQ's </a></p>
+      <p><a href="C:\Users\obabi\Desktop\EVENT BROOKER\Support.html#Complaints">Complaints</a></p>
+      <p><a href="C:\Users\obabi\Desktop\EVENT BROOKER\Support.html">Refund </a></p>
+    </div>
+</div>
+
+<div class=" copyright"> 
+<p>Oluwanifise Korede Obabire N1116021 © Elysium 2023</p>
+</div>
+
+<script>
+// 
+function IFempty() {
+ var fname = document.getElementById("fname").value;
+ var lname = document.getElementById("lname").value;
+ var addy = document.getElementById("addy").value;
+ var pcode = document.getElementById("pcode").value;
+ var city = document.getElementById("city").value;
+ var region = document.getElementById("region").value;
+ var mail = document.getElementById("mail").value;
+ var num = document.getElementById("num").value;
+ var mess = document.getElementById("mess").value;
+
+ // set pattern for required variables 
+var emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+
+var addressPattern = /^[a-zA-Z0-9\s.,/-]+$/;
+
+var numberPattern = /^\d{11}$/;
+
+var PcodePattern = /^[A-Z0-9]+$/;
+
+if
+ ( // if fname,lname,addy,pcode e.t.c are  empty drop the alert "please fill in required fields"
+  fname === "" ||
+  lname === "" ||
+  addy === "" ||
+  pcode === "" ||
+  region === "" ||
+  mail === "" ||
+  num === "" ||
+  mess === "" )
+  {
+    alert("please fill  in required  fields");
+    return false;
+  }
+
+  alert("Submitted Successfully");
+return true;
+
+if(!emailPattern.test(mail)){
+  alert ("Invalid email format");
+  return false;
+}
+
+if (!addressPattern.test(addy))
+{
+  alert("invalid address format");
+  return false;
+}
+
+
+
+if (!postcodePattern.test(pcode)) {
+  alert("Invalid postcode format. Please use uppercase letters and numbers only.");
+  return false;
+}
+
+
+if (!numberPattern.test(num))
+{
+  alert("Invalid phone number:Enter 11 digits");
+  return false;
+}
+
+alert("Form submitted successfully");
+return true;
+}
+
+
+</script>
+
+</body>
+</html>

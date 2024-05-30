@@ -1,0 +1,205 @@
+* {box-sizing:border-box}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+
+h2 {
+    text-align: center;
+    font-size:2.7em;
+    background:white;
+    color: black;
+    height:90px;
+    font-family:Candara;
+}
+
+@media screen and (max-width: 400px) {  
+  /* When screen is less than 600px let the column width be 100 % */
+  .h2 {
+    padding-right: 0px;
+    margin-right: 0px;
+  }
+}
+
+
+h5{
+   font-family:Arial, Helvetica, sans-serif; 
+   padding-left: 40px;
+
+}
+h3{
+text-align: center;
+}
+p{
+  padding-left: 35px;
+  margin-top: 0px;
+  text-align: justify;
+  line-height:36px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+  'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+img{
+  width: 800px;
+  height: 600px;
+  padding: 5px 10px 5px 5px;
+}
+
+
+label
+{
+  font-size: 47px;
+  float: left;
+  color: #FFFEF2;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+  'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+label:hover {
+  color:rgb(217, 129, 15);
+}
+
+@media screen and (max-width:600px)
+{
+label{
+  padding-top: 6px;
+  font-size: 27px;
+}
+}
+
+
+@media only screen and (max-width: 600px) {  
+  /* When screen is less than 600px let the column width be 100 % */
+
+  .Photo img{
+    width: 600px;
+    height: auto;
+  }
+
+}
+
+
+@media screen and (max-width: 400px) {  
+  /* When screen is less than 600px let the column width be 100 % */
+  .photo img  {
+    width:400px;
+    padding-right: 0px;
+    margin-right: 0px;
+  }
+
+}
+
+
+@media screen and (min-width: 768px) {  
+  /* When viewport is greater than 768px let the */
+  .Photo{
+display: inline;
+margin-right:30px;
+  }
+
+}
+
+/* Solid border divider  */
+hr.solid {
+    border-top: 1px solid #ccc;
+  }
+  
+@media screen and (max-width: 400px) {  
+  /* When viewport is greater than 768px let the */
+  hr{
+width:100%;
+padding-right: -10px;
+margin-right: -10px;
+  }
+
+}
+
+  
+  
+  .icon-box { /* style icon container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+     
+  }
+  
+  .shapes {
+    float: left;
+    width: 33.33%;
+   
+  }
+  
+  .icon-box:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 600px) {  
+    /* When screen is less than 600px let the column width be 100 % */
+    .shapes {
+      width: 100%;
+    }
+  }
+
+  
+
+
+.copyright{
+    color:white;
+    border: 1px black solid;
+    border-radius: 6px;
+    width: 100%;
+    text-align: center;
+    font-family:Montserrat,sans-serif;
+  }
+  
+  @media screen and (max-width: 400px) {  
+    /* When screen is less than 600px let the column width be 100 % */
+    .copyright {
+      width:100%;
+      text-align: center;
+    }
+  }
+  
+  .Footer {
+    background:rgb(217, 129, 15);
+  }
+  .column {
+    float: left;
+    width: 33.33%;
+    color: #ccc;
+    
+  }
+  
+  
+  
+  /* Clear floats after the columns */
+  .Footer:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  @media screen and (max-width: 600px) {  
+    /* When screen is less than 600px let the column width be 100 % */
+    .column {
+      width:100%;
+      padding-right: 0px;
+      margin-right: 0px;
+    }
+  }
+  
+  @media  only  screen and (max-width: 400px) {  
+    /* When screen is less than 600px let the column width be 100 % */
+    .column {
+      width:400px;
+      padding-right: 0px;
+      margin-right: 0px;
+    }
+  }
+  
